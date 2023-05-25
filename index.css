@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* ------------------------------navbarStart----------------------------------------------- */
+.navbar {
+  height: 55px;
+  width: 100%;
+  /* border: 1px solid #000; */
+  position: fixed;
+  z-index: 5;
+  background-color: white;
+  box-shadow: 0px 0px 2px 1px lightgray;
+}
+.logo {
+  font-size: 15px;
+  position: absolute;
+  padding: 10px 25px;
+  top: 8px;
+  left: 5px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
+.nav-list1 {
+  height: max-content;
+  width: max-content;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  /* background-color: antiquewhite; */
+}
+.nav-list1 ul {
+  list-style: none;
+}
+.nav-list1 ul li {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  letter-spacing: 4px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.nav-list1 ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+.nav-list1 a:hover {
+  background-color: darkgray;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  /* background-color: aqua; */
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  text-align: center;
+  display: none;
+}
+.fa-bars {
+  font-size: 20px;
+}
+/* ------------------------------CoantainerStart------------------------------- */
+.container {
+  /* height: 100vh; */
+  width: 100%;
+  background-image: url(./BR-imgs/architect.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  padding: 1px;
+}
+.logo-content {
+  /* height: 20vh; */
+  width: 25%;
+  /* border: 1px solid #000; */
+  margin: 25% auto;
+}
+.content-head {
+  text-align: center;
+  color: white;
+  letter-spacing: 4px;
+  /* margin-top: 35px; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
+}
+.content-head p {
+  display: inline-block;
+}
+/* ------------------------------------ProjectStart--------------------------------------- */
+.proj-container {
+  /* height: 90vh; */
+  width: 100%;
+  padding: 30px 0px;
+  /* border: 1px solid #000; */
+}
+.project-box {
+  height: 10vh;
+  width: 95%;
+  /* border: 1px solid #000; */
+  margin: 35px auto;
+}
+.heading2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.hr1 {
+  margin-top: 40px;
+}
+.pick-box {
+  height: max-content;
+  width: 96%;
+  /* border: 1px solid red; */
+  margin: auto;
+  /* padding: 1px; */
+}
+.img-box {
+  /* height: 30vh; */
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+  float: left;
+  /* border: 1px solid #000; */
+  margin: 10px;
+  position: relative;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.clear {
+  clear: both;
+}
+.heading4 {
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+/* ---------------------------------AboutStart-------------------------------------------- */
+.about-container {
+  height: max-content;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.about-box {
+  /* height: auto; */
+  width: 95%;
+  /* border: 1px solid #000; */
+  margin: 35px auto;
+  padding-top: 20px;
+}
+.about-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.hr2 {
+  margin-top: 15px;
+}
+.para {
+  font-size: 18.4px;
+  margin-top: 15px;
+  /* padding: 0px 5px; */
+}
+.card-box {
+  /* height: 65vh; */
+  width: 96%;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+.card-parent {
+  /* height: 65vh; */
+  width: calc(25% - 20px);
+  /* border: 3px solid #000; */
+  float: left;
+  margin: 10px;
+}
+.card-pick {
+  /* height: 35vh; */
+  width: 100%;
+  filter: grayscale(80%);
+  /* border: 1px solid #000; */
+}
+.card-heading2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+.card-heading4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(175, 175, 175);
+  margin-top: 20px;
+}
+.card-para {
+  margin-top: 20px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.contact-box {
+  height: 6vh;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+.contact-box:hover {
+  background-color: darkgray;
+}
+.contact-box p {
+  text-align: center;
+  line-height: 6vh;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* -----------------------------------Contactstart---------------------------------------------- */
+.contact-container {
+  height: max-content;
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.content-box {
+  height: max-content;
+  width: 95%;
+  margin: 0px auto;
+  /* border: 1px solid #000; */
+}
+
+.contact-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.hr3 {
+  margin-top: 20px;
+}
+.contact-para {
+  font-size: 18.7px;
+  margin-top: 15px;
+}
+.input-box {
+  height: max-content;
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+.inp {
+  height: 5.7vh;
+  width: 100%;
+  /* outline: none; */
+  font-size: 18px;
+  padding: 0px 10px;
+  margin-top: 15px;
+}
+.btn {
+  padding: 12px 20px;
+  background-color: #000;
+  color: white;
+  font-size: 14px;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: darkgray;
+  color: black;
+}
+/* --------------------------------------imagesStart--------------------------------- */
+.images-box {
+  /* height: 100vh; */
+  width: 96%;
+  margin: auto;
+  /* border: 1px solid #000; */
+  padding-bottom: 10px;
+}
+/* ----------------------------------------FooterStart--------------------------------------- */
+.footer {
+  height: 12vh;
+  width: 100%;
+  background-color: black;
+}
+.footer-para {
+  text-align: center;
+  line-height: 12vh;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .images-box {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .images-box {
+    height: 70vh;
+  }
+  .img-box {
+    width: calc(50% - 20px);
+  }
+  .card-parent {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .images-box {
+    height: 50vh;
+  }
+  .content-head p {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .img-box {
+    width: calc(100% - 20px);
+  }
+  .card-parent {
+    width: calc(100% - 20px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-list1 {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .images-box {
+    height: 30vh;
+  }
+}
